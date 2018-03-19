@@ -1,19 +1,3 @@
-window.onload = function(){
-  let m_linkedlist = new linkedlist();
-  m_linkedlist.appendElement(1);
-  //m_linkedlist.addElement(0,3);
-  m_linkedlist.addElement(0,3);
-  m_linkedlist.addElement(1,4);
-  m_linkedlist.removeElement(2);
-  m_linkedlist.appendElement(4);
-  m_linkedlist.addElement(0,0);
-  m_linkedlist.removeElement(3);
-  m_linkedlist.removeElement(0);
-  console.log("length:"+m_linkedlist.getLength());
-  console.log(m_linkedlist.printList());
-
-};
-
 
 
 const linkedlist = function (){
