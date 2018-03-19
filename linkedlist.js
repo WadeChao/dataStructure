@@ -95,4 +95,8 @@ const linkedlist = function (){
   	}
   	return string;
   }
+
+  this.getElementIndex = function() {
+
+  }
 }
