@@ -96,7 +96,19 @@ const linkedlist = function (){
   	return string;
   }
 
-  this.getElementIndex = function() {
-
+  this.getElementIndex = function(element) {
+    let current = head;
+    let index = -1;
+    while(current){
+        index++;
+        if(current.element == element)
+          return index;
+        else {
+          current = current.next;
+        }
+    }
+    return index;
   }
+
+
 }
